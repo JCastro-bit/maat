@@ -1,0 +1,491 @@
+/* Estilos para el footer */
+.footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h4 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer ul li a:hover {
+    color: #00bcd4;
+}
+
+.footer ul li i {
+    margin-right: 10px;
+}
+
+.footer p.copy {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer ul.social li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer ul.social li:last-child {
+    margin-right: 0;
+}
+
+.footer ul.social li a {
+    color: #fff;
+}
+
+.footer ul.social li a:hover {
+    color: #00bcd4;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer ul.social {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 4px solid #00bcd4;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: #00bcd4 !important;
+}
+
+/* Estilos para el Jumbotron */
+.jumbotron {
+    background-color: #fff;
+    color: #232f3e;
+    text-align: center;
+    padding: 150px 0;
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.jumbotron p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron .btn {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 36px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.jumbotron .btn-primary {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+.jumbotron .btn-primary:hover {
+    background-color: #232f3e;
+    border-color: #232f3e;
+    color: #fff;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+
+.contact h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #232f3e;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #00bcd4;
+    font-size: 16px;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact input[type="submit"] {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 36px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    border-radius: 0;
+    color: #fff;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #232f3e;
+    border-color: #232f3e;
+}
+
+
+/* Estilos para la sección de galería */
+.gallery {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #232f3e;
+}
+
+.gallery .carousel-item {
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.gallery .carousel-control-prev,
+.gallery .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gallery .carousel-control-prev:focus,
+.gallery .carousel-control-prev:hover,
+.gallery .carousel-control-next:focus,
+.gallery .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery .carousel-caption {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.gallery .carousel-caption h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.gallery .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.gallery .carousel-indicators {
+    bottom: -50px;
+}
+
+.gallery .carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.gallery .carousel-indicators .active {
+    background-color: #00bcd4;
+}
+
+/* Estilos para la sección de servicios */
+.services {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.services h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.services .service-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services .service-item .icon {
+    font-size: 64px;
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.services .service-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.services .service-item p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.services .service-item a {
+    color: #00bcd4;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.services .service-item a:hover {
+    color: #0c94a3;
+}
+
+
+#gallery {
+    background-color: #f8f9fa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+#gallery hr {
+    width: 50px;
+    border-color: #17a2b8;
+    border-width: 2px;
+    margin: 30px auto;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #17a2b8;
+}
+
+.card-text {
+    color: #868e96;
+}
+
+
+/* Sección de Testimonios */
+
+#testimonials {
+    background-color: #f8f9fa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+#testimonials hr {
+    width: 50px;
+    border-color: #17a2b8;
+    border-width: 2px;
+    margin: 30px auto;
+}
+
+.card {
+    border: none;
+}
+
+
+/* Seccion de Precios */
+
+#prices {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.pricing-card .card-header {
+    background-color: #f5f5f5;
+    border-radius: 5px 5px 0 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-card .card-header h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.pricing-card .card-header p {
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pricing-card .card-body {
+    padding: 30px;
+}
+
+.pricing-card .pricing-price {
+    color: #007bff;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.pricing-card ul li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.pricing-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.pricing-card .btn-primary:hover {
+    background-color: #0062cc;
+    border-color: #005cbf;
+    color: #fff;
+}
